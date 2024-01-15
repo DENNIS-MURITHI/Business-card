@@ -1,0 +1,44 @@
+
+.card{
+    display: flex;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background: #426B69;
+    border-bottom: 10px solid rgb(71, 61, 61);
+    border-radius: 10px;
+
+}
+
+img{
+    width: 175px;
+    height:175px;
+    border-radius: 8px;
+    margin:45px 0;
+    transition: 0.2s;
+    border: none;
+}
+.card-content{  
+    padding: 30px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width:400px) {
+
+    .card{
+    display: flex;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background: #426B69;
+    border-bottom: 10px solid rgb(44, 42, 42);
+    border-radius: 10px;
+
+}
+}
